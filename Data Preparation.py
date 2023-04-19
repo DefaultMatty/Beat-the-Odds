@@ -49,3 +49,4 @@ for i in range(0,len(matches)):
         matches.at[i, 'AwayPoints']=1
         
 PlayedMatches=matches[np.invert(np.isnan(matches['Home Goals']))]
+PlayedMatches.head()
